@@ -18,7 +18,7 @@ A healthcare patient management application that allows patients to easily regis
 Clone the repository to your local machine using the following command:
 
 ```sh
-git clone https://github.com/mayankkalra03/healthio.git
+git clone https://github.com/mayankkalra03/health.io.git
 cd health.io
 ```
 
