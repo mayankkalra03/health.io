@@ -2,11 +2,11 @@
 
 'use client'; // This marks the component as a client component
 
-import { useState, ChangeEvent, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link'
 import { send, EmailJSResponseStatus } from 'emailjs-com';
+import { useState, ChangeEvent, FormEvent } from 'react';
 
 interface FormData {
   name: string;
