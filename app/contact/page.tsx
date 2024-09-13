@@ -1,11 +1,9 @@
-// app/contact/page.tsx
+'use client';
 
-'use client'; // This marks the component as a client component
-
-import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link'
 import { send, EmailJSResponseStatus } from 'emailjs-com';
+import { useRouter } from 'next/navigation';
 import { useState, ChangeEvent, FormEvent } from 'react';
 
 interface FormData {
