@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-html {
+html,
+* {
   scrollbar-width: thin; /* Options: auto, thin */
-  scrollbar-color: #4caf50 #f1f1f1; /* Scrollbar color and background color */
+  scrollbar-color: #21805d #f1f1f1; /* Scrollbar color and background color */
 }
 
 /* Webkit scrollbar styling (for Chrome, Edge, Safari) */
@@ -18,9 +18,8 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #4caf50; /* Scrollbar thumb color */
+  background-color: #21805d; /* Scrollbar thumb color */
   border-radius: 50px; /* Rounded corners */
-  
 }
 
 ::-webkit-scrollbar-thumb:hover {

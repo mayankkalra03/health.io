@@ -40,41 +40,42 @@ export const IdentificationTypes = [
 export const Doctors = [
   {
     image: "/assets/images/dr-green.png",
-    name: "Amit Sharma",
+    name: "Amit Sharma (Cardiologist)"
   },
   {
     image: "/assets/images/dr-cameron.png",
-    name: "Nisha Patel",
+    name: "Nisha Patel (Pediatrician)"
   },
   {
     image: "/assets/images/dr-livingston.png",
-    name: "Rajesh Gupta",
+    name: "Rajesh Gupta (Orthopedic Surgeon)"
   },
   {
     image: "/assets/images/dr-peter.png",
-    name: "Vikram Singh",
+    name: "Vikram Singh (Neurologist)"
   },
   {
     image: "/assets/images/dr-powell.png",
-    name: "Anita Desai",
+    name: "Anita Desai (Gynecologist)"
   },
   {
     image: "/assets/images/dr-remirez.png",
-    name: "Karan Mehta",
+    name: "Karan Mehta (Dermatologist)"
   },
   {
     image: "/assets/images/dr-lee.png",
-    name: "Sita Reddy",
+    name: "Sita Reddy (Ophthalmologist)"
   },
   {
     image: "/assets/images/dr-cruz.png",
-    name: "Pooja Joshi",
+    name: "Pooja Joshi (General Physician)"
   },
   {
     image: "/assets/images/dr-sharma.png",
-    name: "Ravi Kumar",
+    name: "Ravi Kumar (Oncologist)"
   },
 ];
+
 
 export const StatusIcon = {
   scheduled: "/assets/icons/check.svg",
